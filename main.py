@@ -1,6 +1,7 @@
 from gtts import gTTS
 from random import choice
 from playsound import playsound
+from time import sleep
 
 text = "The red zone is for immediate loading and unloading of passengers only. There is no stopping in a white zone."
 slow = False
@@ -13,3 +14,4 @@ tts.save("main.mp3")
 
 
 playsound('main.mp3')
+sleep(3)
