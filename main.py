@@ -20,4 +20,3 @@ mixer.music.play()
 while mixer.music.get_busy() == True:
     continue
 # playsound('main.mp3')
-sleep(3)
