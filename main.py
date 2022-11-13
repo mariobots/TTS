@@ -1,5 +1,5 @@
 from gtts import gTTS
-from random import choice, random
+from random import choice
 from playsound import playsound
 
 text = "The red zone is for immediate loading and unloading of passengers only. There is no stopping in a white zone."
