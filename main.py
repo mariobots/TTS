@@ -8,7 +8,7 @@ slow = False
 accents = ["com", "com.au", "co.uk", "ie", "co.in", "co.za"]
 accent = choice(accents)
 
-tts = gTTS(text, lang='en', tld=accent, slow=slow)
+tts = gTTS(text, tld=accent, slow=slow)
 tts.save("main.mp3")
 
 
