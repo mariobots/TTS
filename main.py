@@ -13,7 +13,6 @@ accent = choice(accents)
 tts = gTTS(text, tld=accent, slow=slow)
 tts.save("main.mp3")
 
-
 mixer.init()
 mixer.music.load("main.mp3")
 mixer.music.play()
